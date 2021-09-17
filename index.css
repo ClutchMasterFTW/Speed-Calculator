@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Poller+One&display=swap');
+
+/*font-family: 'Poller One', cursive;*/
+
+* {
+    font-family: 'Poller One', cursive;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#container {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0vw;
+    left: 0vw;
+    background-image: linear-gradient(130deg, yellow, orange, black);
+}
+
+#title {
+    font-size: 3vw;
+    display: inline-block;
+    user-select: none;
+}
+
+.material-icons.icontest {
+    font-size: 3vw;
+    display: inline-block;
+    position: relative;
+    top: 0.4vw;
+    padding-left: 0.5vw;
+    user-select: none;
+}
+
+#mile-input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 0.25vw black solid;
+    width: 27%;
+    height: 10%;
+    font-size: 5vw;
+    position: absolute;
+    top: 10vw;
+    left: 1vw;
+}
+
+#mile-input:focus {
+    border-bottom: 0.4vw white solid;
+    width: 40%;
+    transition-duration: 0.5s;
+}
+
+#hour-input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 0.25vw black solid;
+    width: 11%;
+    height: 10%;
+    font-size: 5vw;
+    position: absolute;
+    top: 20vw;
+    left: 1vw;
+}
+
+#hour-input:focus {
+    border-bottom: 0.4vw white solid;
+    width: 12%;
+    transition-duration: 0.5s;
+}
+
+#minute-input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 0.25vw black solid;
+    width: 12%;
+    height: 10%;
+    font-size: 5vw;
+    position: absolute;
+    top: 20vw;
+    left: 14vw;
+}
+
+#minute-input:focus {
+    border-bottom: 0.4vw white solid;
+    width: 13%;
+    transition-duration: 0.5s;
+}
+
+#second-input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 0.25vw black solid;
+    width: 12%;
+    height: 10%;
+    font-size: 5vw;
+    position: absolute;
+    top: 20vw;
+    left: 28vw;
+}
+
+#second-input:focus {
+    border-bottom: 0.4vw white solid;
+    width: 13%;
+    transition-duration: 0.5s;
+}
+
+textarea:focus, input:focus {
+    outline: none;
+}
+
+#mile-title {
+    font-size: 1vw;
+    position: absolute;
+    top: 7vw;
+    left: 1vw;
+}
+
+#hour-title {
+    font-size: 1vw;
+    position: absolute;
+    top: 17vw;
+    left: 1vw;
+}
+
+#minute-title {
+    font-size: 1vw;
+    position: absolute;
+    top: 17vw;
+    left: 14vw;
+}
+
+#second-title {
+    font-size: 1vw;
+    position: absolute;
+    top: 17vw;
+    left: 28vw;
+}
+
+#speed-title {
+    font-size: 2.5vw;
+    position: absolute;
+    top: 28vw;
+    left: 1vw;
+}
+
+#speed {
+    font-size: 5vw;
+    position: absolute;
+    top: 34vw;
+    left: 1vw;
+}
+
+#author {
+    position: relative;
+    left: 1vw;
+    font-size: 1vw;
+}
+
+.link {
+    color: orangered;
+}

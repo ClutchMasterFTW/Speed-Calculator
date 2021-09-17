@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <title>Speed Calculator</title>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    </head>
+    <body>
+        <div id="container">
+            <span class="material-icons icontest" id="icon">calculate</span>
+            <div id="title">Speed Calculator</div>
+            <div id="author">Created by: <a href="https://github.com/ClutchMasterFTW" class="link" target="_blank">Clutch Master FTW</a> | v1.0</div>
+
+            <h1 id="mile-title">Mile(s) Traveled:</h1>
+            <input type="number" id="mile-input" name="Miles Traveled" min="0" value="0" oninput="changeInputValues(this.id)">
+            <h1 id="hour-title">Hour(s) Traveled:</h1>
+            <input type="number" id="hour-input" name="Hours Traveled" min="0" value="0" oninput="changeInputValues(this.id)">
+            <h1 id="minute-title">Minute(s) Traveled:</h1>
+            <input type="number" id="minute-input" name="Minutes Traveled" min="0" max="59" value="0" oninput="changeInputValues(this.id)">
+            <h1 id="second-title">Second(s) Traveled:</h1>
+            <input type="number" id="second-input" name="Seconds Traveled" min="0" max="59" value="0" oninput="changeInputValues(this.id)">
+
+            <h1 id="speed-title">Average Speed:</h1>
+            <div id="speed">0ft/sec</div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
